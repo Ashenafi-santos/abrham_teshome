@@ -26,7 +26,7 @@ const Footer = () => {
             <h1 className="text-xl font-semibold border-b-2 border-secondary mb-4">
               USEFUL LINKS
             </h1>
-            <nav className="grid grid-cols-1  w-[400px] ">
+            <nav className="grid grid-cols-1  md:w-[400px] ">
               <div className="flex items-center  font-light border-b-[1px]">
                 <IoIosArrowForward />
                 <a

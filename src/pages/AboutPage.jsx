@@ -22,11 +22,11 @@ const AboutPage = () => {
           <div className="flex justify-center items-center">
             <img
               src={Office}
-              className="h-auto md:h-[500px] max-w-[500px] rounded-md shadow-lg"
+              className="h-auto md:h-[500px] md:w-[1000px] w-full rounded-md shadow-lg"
               alt="Office"
             />
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center text-justify">
             <h1 className="text-2xl md:text-3xl text-blue-500 font-bold mb-4">
               About Abraham Teshome Ageze Certified Audit Firm
             </h1>
@@ -66,14 +66,14 @@ const AboutPage = () => {
             <div className="flex justify-center">
               <img
                 src={Accounting}
-                className="w-full md:w-[500px] max-w-[500px]"
+                className="w-full md:w-[500px] "
                 alt="Accounting"
               />
             </div>
           </div>
         </div>
         <div>
-          <p className="text-lg md:text-xl text-gray-700">
+          <p className="text-lg md:text-xl text-gray-700 text-justify">
             In his experience as Principal and audit manager, Mr. Abraham has
             audited and reviewed internal control systems, conducted meetings,
             as well as discussed and agreed on audit reports, and other related
@@ -86,7 +86,7 @@ const AboutPage = () => {
           <div></div>
         </div>
         <div>
-          <p className="text-lg md:text-xl text-gray-700">
+          <p className="text-lg md:text-xl text-gray-700 text-justify">
             Mr. Abraham’s employment in various companies and institutions
             working in different positions has exposed him to various working
             environments and systems which helped him attain his current

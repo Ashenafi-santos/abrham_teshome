@@ -61,7 +61,7 @@ const AboutSection = () => {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex justify-end"
+        className="md:flex justify-end hidden"
       >
         <img src={audit} className="w-[80%]" />
       </motion.div>
