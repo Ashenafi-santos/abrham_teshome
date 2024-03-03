@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 py-4 font-Raleway z-10">
+    <nav className="bg-primary py-4 font-Raleway z-10">
       <div className="container mx-auto font-bold px-5 md:px-0 flex justify-around items-start md:items-center">
         <Link to="/">
           <motion.img
@@ -99,14 +99,14 @@ const NavItem = ({ to, currentPath, icon, children, onClick }) => {
       whileHover={{ scale: 1.1 }}
       className={`flex items-center ${
         isActive
-          ? "border-b-2 border-blue-500"
+          ? "border-b-2 border-secondary"
           : "hover:text-gray-300 hover:border-b-2"
       }`}
     >
       <Link
         to={to}
-        className={`flex text-sm items-center gap-2 ${
-          isActive ? "text-blue-500" : "hover:border-b-2 border-transparent"
+        className={`flex text-[13px] items-center gap-2 ${
+          isActive ? "text-secondary" : "hover:border-b-2 border-transparent"
         } transition duration-300`}
         onClick={onClick}
       >

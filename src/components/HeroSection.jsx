@@ -4,6 +4,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import trust from "../assets/trust.jpg";
 import finince from "../assets/finince.jpg";
 import accountingService from "../assets/accounting-service.jpg";
+import { Link } from "react-router-dom";
 
 const slogans = [
   "Excellence in Accounting Services",
@@ -82,25 +83,25 @@ const HeroSection = () => {
             tailored to your needs.
           </p>
           <div className="mb-8">
-            <a
-              href="#"
-              className="text-white bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-colors duration-300 mr-4"
+            <Link
+              to={"/about"}
+              className="text-white bg-primary hover:bg-blue-700 px-6 py-3 rounded-lg transition-colors duration-300 mr-4"
             >
               Learn More
-            </a>
-            <a
-              href="#"
-              className="text-blue-600 bg-white hover:bg-gray-200 px-6 py-3 rounded-lg transition-colors duration-300"
+            </Link>
+            <Link
+              to={"/contact"}
+              className="text-primary bg-white hover:bg-gray-200 px-6 py-3 rounded-lg transition-colors duration-300"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
-          <p className=" text-xl lg:text-3xl font-semibold mb-4 text-[#96b1db]  drop-shadow-xl ">
+          <p className=" text-xl lg:text-3xl font-semibold mb-4 text-secondary  drop-shadow-xl ">
             {slogans[currentImageIndex]}
           </p>
         </div>
         <div className="text-right">
-          <div className="bg-blue-400 shadow-lg shadow-blue-500 text-white rounded-lg p-4 md:-rotate-45 absolute md:top-20 top-2 z-20 left-14 md:-left-3">
+          <div className="bg-primary/50 shadow-lg shadow-primary text-white rounded-lg p-4 md:-rotate-45 absolute md:top-20 top-2 z-20 left-14 md:-left-3">
             <h2 className="text-xl font-bold mb-2">
               Over 20 Years of Experience
             </h2>

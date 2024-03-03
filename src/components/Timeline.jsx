@@ -35,7 +35,7 @@ const TimelineItem = ({ title, subtitle, date }) => {
       className="mb-8"
     >
       <div className="flex items-center mb-2">
-        <FaBriefcase className="mr-3 w-6 h-6 text-purple-400 text-gray-600" />
+        <FaBriefcase className="mr-3 w-6 h-6  text-secondary" />
         <div>
           <h2 className="font-semibold">{title}</h2>
           <p className="text-sm text-gray-500">{subtitle}</p>

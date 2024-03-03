@@ -174,7 +174,7 @@ const ServicePage = () => {
               ref={itemRef}
             >
               <div className="flex items-center mb-4">
-                <service.icon className="text-3xl md:text-4xl mr-4 text-blue-500" />
+                <service.icon className="text-3xl md:text-4xl mr-4 text-secondary" />
                 <h2 className="text-xl md:text-2xl font-semibold">
                   {service.title}
                 </h2>

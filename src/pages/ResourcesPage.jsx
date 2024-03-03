@@ -66,7 +66,7 @@ const TaxResourcesPage = () => {
                 <a
                   href={`src/assets/resouces/${resource.fileName}`}
                   download={resource.fileName}
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base text-center"
+                  className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm md:text-base text-center"
                 >
                   Download
                 </a>

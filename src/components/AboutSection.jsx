@@ -51,9 +51,11 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="flex items-center hover:bg-white hover:border-blue-500 hover:border hover:text-black bg-blue-500 text-white py-2 px-4 rounded-md"
+          className="flex items-center hover:bg-white hover:border-blue-500 hover:border hover:text-black bg-primary text-white py-2 px-4 rounded-md"
         >
-          <Link to={"/about"}>Read More</Link>
+          <Link to={"/about"} className="w-full">
+            Read More
+          </Link>
           <BsArrowRight className="ml-2" />
         </motion.button>
       </motion.section>

@@ -6,6 +6,14 @@ export default {
       fontFamily: {
         Raleway: '"Raleway", sans-serif',
       },
+      colors: {
+        primary: {
+          DEFAULT: "#0050a2",
+        },
+        secondary: {
+          DEFAULT: "#db927f",
+        },
+      },
     },
   },
   plugins: [],

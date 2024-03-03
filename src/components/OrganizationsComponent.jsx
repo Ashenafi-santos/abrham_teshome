@@ -50,7 +50,7 @@ const OrganizationCard = ({ icon, name }) => {
       animate={isVisible ? "visible" : "hidden"}
       variants={variants}
       transition={{ duration: 0.5 }}
-      className="bg-white rounded-md text-purple-500 shadow-md p-4 flex items-center transition duration-300 ease-in-out transform hover:shadow-lg cursor-pointer"
+      className="bg-white rounded-md text-secondary shadow-md p-4 flex items-center transition duration-300 ease-in-out transform hover:shadow-lg cursor-pointer"
     >
       {icon}
       <p className="ml-2">{name}</p>
@@ -109,7 +109,7 @@ const OrganizationsComponent = () => {
 
   return (
     <div className="flex flex-col items-center justify-center font-Raleway bg-gray-100 py-10">
-      <h1 className="text-3xl font-bold mb-5 text-blue-500">
+      <h1 className="text-3xl font-bold mb-5 text-primary">
         Types of Organizations Worked With
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

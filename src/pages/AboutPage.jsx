@@ -27,7 +27,7 @@ const AboutPage = () => {
             />
           </div>
           <div className="flex flex-col justify-center text-justify">
-            <h1 className="text-2xl md:text-3xl text-blue-500 font-bold mb-4">
+            <h1 className="text-2xl md:text-3xl text-primary font-bold mb-4">
               About Abraham Teshome Ageze Certified Audit Firm
             </h1>
             <p className="text-md md:text-md text-gray-700 mb-4">
@@ -58,7 +58,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="py-10">
-          <h1 className="text-xl text-blue-500 md:text-2xl font-semibold">
+          <h1 className="text-xl text-primary md:text-2xl font-semibold">
             During his tenure, he has held the following positions
           </h1>
           <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 pt-10">
@@ -73,7 +73,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div>
-          <p className="text-lg md:text-xl text-gray-700 text-justify">
+          <p className="md:text-lg text-gray-700 text-justify">
             In his experience as Principal and audit manager, Mr. Abraham has
             audited and reviewed internal control systems, conducted meetings,
             as well as discussed and agreed on audit reports, and other related

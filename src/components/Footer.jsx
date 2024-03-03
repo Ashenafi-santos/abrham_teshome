@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { LogoTransparnt } from "../assets/logo";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,48 +30,48 @@ const Footer = () => {
             <nav className="grid grid-cols-1  md:w-[400px] ">
               <div className="flex items-center  font-light border-b-[1px]">
                 <IoIosArrowForward />
-                <a
-                  href="/#"
+                <Link
+                  to={"/"}
                   className="px-4 py-2 text-gray-300 hover:text-white"
                 >
                   Home
-                </a>
+                </Link>
               </div>
               <div className="flex items-center font-light   border-b-[1px]">
                 <IoIosArrowForward />
-                <a
-                  href="/#pricing"
+                <Link
+                  to="/#pricing"
                   className="px-4 py-2 text-gray-300 hover:text-white"
                 >
                   About Us
-                </a>
+                </Link>
               </div>
               <div className="flex items-center font-light   border-b-[1px]">
                 <IoIosArrowForward />
-                <a
-                  href="/contact"
+                <Link
+                  to={"/contact"}
                   className="px-4 py-2 text-gray-300 hover:text-white"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
               <div className="flex items-center font-light   border-b-[1px]">
                 <IoIosArrowForward />
-                <a
-                  href="/resources"
+                <Link
+                  to={"/resources"}
                   className="px-4 py-2 text-gray-300 hover:text-white"
                 >
                   Resources
-                </a>
+                </Link>
               </div>
               <div className="flex items-center font-light   border-b-[1px]">
                 <IoIosArrowForward />
-                <a
-                  href="/services"
+                <Link
+                  to={"/services"}
                   className="px-4 py-2 text-gray-300 hover:text-white"
                 >
                   Services
-                </a>
+                </Link>
               </div>
             </nav>
           </div>
@@ -79,10 +80,12 @@ const Footer = () => {
           <div>
             <h5 className="text-xl font-semibold mb-4">Contact Us</h5>
           </div>
-          <p className="text-gray-400 mb-2">
-            Email: panafricanyouthsummit@AYDEC.org
-          </p>
-          <p className="text-gray-400 mb-2">Phone: +251 9 11 23 13 65 </p>
+          <p className="text-gray-400 mb-2">Email: atco2016@gmail.com</p>
+          <p className="text-gray-400">Phone:</p>
+          <div className="ps-14 font-Raleway text-gray-400">
+            <p className="text-gray-400 ">+251 9 11 23 13 65 </p>
+            <p>+251 11 8 29 84 84</p> <p> +251 11 6 62 06 12</p>
+          </div>
           <p className="text-gray-400 mb-4">
             Address: Haya hulet, Addis Ababa, Ethiopia
           </p>

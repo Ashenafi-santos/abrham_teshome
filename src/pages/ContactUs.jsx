@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FiUser, FiMail, FiPhone } from "react-icons/fi";
+import { FiUser, FiMail, FiPhone, FiBox, FiPrinter } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -44,7 +44,7 @@ const ContactUs = () => {
       <Navbar />
       <div className="font-Raleway p-4 md:p-20 bg-gray-100">
         <div className="flex justify-center">
-          <h1 className="capitalize text-2xl text-blue-500 font-bold ">
+          <h1 className="capitalize text-2xl text-primary font-bold ">
             Feel free to contact us
           </h1>
         </div>
@@ -66,13 +66,39 @@ const ContactUs = () => {
               className="bg-white p-4 rounded-lg shadow-lg mt-4"
               whileHover={{ scale: 1.02 }}
             >
-              <div className="flex items-center mb-2">
-                <FiMail className="w-6 h-6 mr-2 text-gray-500" />
-                <span>Email: example@example.com</span>
-              </div>
-              <div className="flex items-center mb-2">
-                <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
-                <span>Phone: +1234567890</span>
+              <div className="flex gap-10">
+                <div className="flex flex-col gap-1">
+                  <div className="flex items-center mb-2">
+                    <FiMail className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Email: example@example.com</span>
+                  </div>
+                  <div className="flex items-center mb-2">
+                    <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Phone: +251 9 11 23 13 65</span>
+                  </div>
+                  <div className="flex items-center mb-2">
+                    <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Phone: +251 11 6 62 06 12</span>
+                  </div>
+                  <div className="flex items-center mb-2">
+                    <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Phone: +251 11 8 29 84 84</span>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center mb-2">
+                    <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Fax: +251 116 634463</span>
+                  </div>
+                  <div className="mb-2">
+                    <FiBox className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>P.O. Box 26012</span>
+                  </div>
+                  <div className="mb-2">
+                    <FiPrinter className="w-6 h-6 mr-2 text-gray-500" />
+                    <span>Code: 1000</span>
+                  </div>
+                </div>
               </div>
             </motion.div>
           </motion.div>
@@ -183,7 +209,7 @@ const ContactUs = () => {
               </div>
               <button
                 type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
                 Submit
               </button>
