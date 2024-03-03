@@ -90,11 +90,11 @@ const ContactUs = () => {
                     <FiPhone className="w-6 h-6 mr-2 text-gray-500" />
                     <span>Fax: +251 116 634463</span>
                   </div>
-                  <div className="mb-2">
+                  <div className="flex items-center mb-2">
                     <FiBox className="w-6 h-6 mr-2 text-gray-500" />
                     <span>P.O. Box 26012</span>
                   </div>
-                  <div className="mb-2">
+                  <div className="flex items-center mb-2">
                     <FiPrinter className="w-6 h-6 mr-2 text-gray-500" />
                     <span>Code: 1000</span>
                   </div>
